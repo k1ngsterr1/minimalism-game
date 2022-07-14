@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 28%);
+  font-family: "Nunito", sans-serif;
+}
+body .container {
+  width: 72.3958333333%;
+  height: 100vh;
+  border-right: 1px white solid;
+  border-left: 1px solid rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .second-container {
+  width: 72.3958333333%;
+  height: 100vh;
+  border-right: 1px white solid;
+  border-left: 1px solid rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 3.3854166667vw;
+  line-height: 4.6354166667vw;
+  letter-spacing: 0.185em;
+}
+body .paragraph-border {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  width: 60.78125%;
+  color: hsl(0deg, 0%, 100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-top: 2.3333333333vw;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5416666667vw;
+  text-align: center;
+  letter-spacing: 0.05em;
+  border: 2px solid hsl(54deg, 100%, 57%);
+  height: 31.6666666667%;
+}
+body .navigation {
+  width: 52.6041666667vw;
+  height: 6.7777777778%;
+  margin-top: 3.3854166667vw;
+  display: flex;
+  justify-content: space-between;
+}
+body #rules, body #game, body #about {
+  width: 11.4583333333vw;
+  height: 100%;
+  border: 2px solid white;
+  font-size: clamp(20px, 4.1753653445vw, 45px);
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  color: hsl(0deg, 0%, 100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  font-family: "Nunito", sans-serif;
+}
+body #rules:hover, body #game:hover, body #about:hover {
+  border: none;
+  border-bottom: 2px solid hsl(54deg, 100%, 57%);
+}
+body .page-content {
+  width: 52.65625%;
+  height: 41.3888888889%;
+  margin-top: 9.9479166667vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .header-border {
+  width: 100%;
+  height: 40.4921700224%;
+  border: 2px solid hsl(54deg, 100%, 57%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(12px, 2.0833333333vw, 50px);
+  color: hsl(0deg, 0%, 100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  line-height: 8.5416666667vw;
+  letter-spacing: 0.185em;
+}
+body .the-game {
+  margin-top: 2vw;
+  font-weight: 400;
+  font-size: clamp(20px, 2.0833333333vw, 45px);
+  line-height: 82px;
+  color: hsl(0deg, 0%, 100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  letter-spacing: 0.185em;
+}
+body #start {
+  width: 50.8267922554%;
+  height: 16.5548098434%;
+  margin-top: 2.34375vw;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: clamp(25px, 2.6041666667vw, 60px);
+  border-radius: 7px;
+  color: hsl(0deg, 0%, 100%);
+  line-height: 3.5416666667vw;
+  letter-spacing: 0.05em;
+  background-color: hsl(54deg, 100%, 57%);
+  transition: 0.2s all;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+body #start:hover {
+  background-color: hsl(54deg, 100%, 47%);
+}
+@media screen and (max-width: 1300px) {
+  body button {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body button {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body button {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=styles.css.map */

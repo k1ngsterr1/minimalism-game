@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+$bg-color: hsl(0, 0%, 28%);
+$separator: hsl(0, 0%, 100%);
+$main-yellow: hsla(54, 100%, 57%, 1);
+$main-yellow-hover: hsla(54, 100%, 47%, 1);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg-color;
+    font-family: 'Nunito', sans-serif;
+
+    .container{
+        width: 72.39583333333333%;
+        height: 100vh;
+        border-right: 1px white solid;
+        border-left: 1px solid rgb(255, 255, 255);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-container{
+            width: 72.39583333333333%;
+            height: 100vh;
+            border-right: 1px white solid;
+            border-left: 1px solid rgb(255, 255, 255);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+    #h2{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        color: $separator;
+        user-select: none;
+        font-size: 3.3854166666666665vw;
+        line-height: 4.635416666666667vw;
+        letter-spacing: 0.185em;
+    }
+
+    .paragraph-border{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        width: 60.78125%;
+        color: $separator;
+        user-select: none;
+        margin-top: 2.3333333333333335vw;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 3.5416666666666665vw;
+        text-align: center;
+        letter-spacing: 0.05em;
+        border: 2px solid $main-yellow;
+        height: 31.666666666666668%;
+    }
+
+    .navigation{
+        width: 52.604166666666664vw;
+        height: 6.777777777777778%;
+        margin-top: 3.3854166666666665vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #rules,#game,#about{
+        width: 11.458333333333334vw;
+        height: 100%;
+        border: 2px solid white;
+        font-size: clamp(20px,4.175365344467641vw,45px);
+        outline: none;
+        font-style: normal;
+        font-weight: 500;
+        color: $separator;
+        user-select: none;
+        background-color: transparent;
+        font-family: 'Nunito', sans-serif;
+        
+        &:hover{
+            border: none;
+            border-bottom: 2px solid $main-yellow;
+        }
+
+    }
+    
+    .page-content{
+        width: 52.65625%;
+        height: 41.388888888888886%;
+        margin-top: 9.947916666666666vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-border{
+        width: 100%;
+        height: 40.49217002237136%;
+        border: 2px solid $main-yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp(12px,2.0833333333333335vw,50px);
+        color: $separator;
+        user-select: none;
+        line-height: 8.541666666666666vw;
+        letter-spacing: 0.185em;
+    }
+
+    .the-game{
+        margin-top: 2vw;
+        font-weight: 400;
+        font-size: clamp(20px,2.0833333333333335vw,45px);
+        line-height: 82px;
+        color: $separator;
+        user-select: none;
+        letter-spacing: 0.185em;
+    }
+
+    #start{
+        width: 50.826792255363685%;
+        height: 16.55480984340045%;
+        margin-top: 2.34375vw;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        font-size: clamp(25px,2.6041666666666665vw,60px);
+        border-radius: 7px;
+        color: $separator;
+        line-height: 3.5416666666666665vw;
+        letter-spacing: 0.05em;
+        background-color: $main-yellow;
+        transition: 0.2s all;
+        user-select: none;
+
+        &:hover{
+            background-color: $main-yellow-hover;
+        }
+
+    }
+
+
+    @media screen and (max-width:1300px) {
+        button {
+            font-size: 30px
+        }
+    }
+
+
+    @media screen and (max-width:1024px) {
+        button {
+            font-size: 20px
+        }
+    }
+
+
+    @media screen and (max-width:600px) {
+        button {
+            font-size: 15px
+        }
+    }
+}
+
